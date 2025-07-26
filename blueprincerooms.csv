@@ -1,0 +1,128 @@
+Short Name, Name, Display Name, Types, Rarity, Door Type, Gem Cost, Gems, Keys 
+Fnd,The Foundation,The Foundat-ion,Permanent;Blueprint,4,5,0,0,0
+EntH,Entrance Hall,Entrance Hall,Permanent;Blueprint,0,6,0,0,0
+SprR,Spare Room,Spare Room,Blueprint,1,2,0,0,0
+Rtnd,Rotunda,Rotunda,Blueprint,4,6,3,0,0
+Par,Parlor,Parlor,Puzzle;Blueprint,1,3,0,0,0
+BrkR,Break Room,Break Room,Puzzle;Blueprint,1,3,0,0,0
+Gal,Gallery,Gallery,Puzzle;Blueprint,4,2,0,0,0
+8,Room 8,Room 8,Puzzle;Blueprint,4,4,0,0,0
+Clst,Closet,Closet,Blueprint;Dead End,1,1,0,0,0
+WiC,Walk-In Closet,Walk–In Closet,Blueprint;Dead End,2,1,1,0,0
+Att,Attic,Attic,Blueprint;Dead End,4,1,3,0,0
+Str,Storeroom,Store-room,Blueprint;Dead End,1,1,0,0,0
+Nook,Nook,Nook,Blueprint,1,3,0,0,1
+Gar,Garage,Garage,Blueprint;Fake Dead End,3,1,1,0,0
+MR,Music Room,Music Room,Blueprint,3,3,2,0,0
+LR,Locker Room,Locker Room,Blueprint;Spread;Addition,4,2,1,0,0
+Den,Den,Den,Blueprint,1,5,0,1,0
+WC,Wine Cellar,Wine Cellar,Blueprint;Dead End,3,1,0,0,0
+TR,Trophy Room,Trophy Room,Blueprint,4,3,5,0,0
+Ball,Ballroom,Ball-room,Blueprint;Entry,3,2,2,0,0
+Pan,Pantry,Pantry,Blueprint,1,3,0,0,0
+RR,Rumpus Room,Rumpus Room,Blueprint,2,2,1,0,0
+Vlt,Vault,Vault,Blueprint;Dead End,4,1,3,0,0
+Off,Office,Office,Blueprint;Spread,2,3,2,0,0
+DR,Drawing Room,Drawing Room,Blueprint;Drafting,1,5,1,0,0
+Stdy,Study,Study,Blueprint;Drafting;Dead End,3,1,0,0,0
+Lib,Library,Library,Blueprint;Drafting,3,3,0,0,0
+CoM,Chamber of Mirrors,Chamber of Mirrors,Blueprint;Drafting;Fake Dead End,3,6,0,0,0
+Pool,The Pool,The Pool,Blueprint;Drafting,1,5,1,0,0
+DftS,Drafting Studio,Drafting Studio,Blueprint;Drafting,2,2,2,0,0
+UC,Utility Closet,Utility Closet,Blueprint;Mechanical;Dead End,2,1,0,0,0
+BR,Boiler Room,Boiler Room,Blueprint;Mechanical,1,5,1,0,0
+PR,Pump Room,Pump Room,Blueprint;Mechanical;Addition,3,3,0,0,0
+Sec,Security,Security,Blueprint;Mechanical,1,5,1,0,0
+Wshp,Workshop,Workshop,Blueprint;Mechanical,3,2,0,0,0
+Lab,Laboratory,Labora-tory,Blueprint;Mechanical,1,3,1,0,0
+Sau,Sauna,Sauna,Blueprint;Tomorrow;Dead End;Addition,3,1,0,0,0
+CC,Coat Check,Coat Check,Blueprint;Tomorrow;Dead End,2,1,0,0,0
+Mail,Mail Room,Mail Room,Blueprint;Tomorrow;Dead End,3,1,0,0,0
+Free,Freezer,Freezer,Blueprint;Tomorrow;Dead End,4,1,0,0,0
+Din,Dining Room,Dining Room,Blueprint,2,5,0,0,0
+Obs,Observatory,Observa-tory,Blueprint,2,3,1,0,0
+Conf,Conference Rom,Confer-ence Rom,Blueprint;Spread,3,5,0,0,0
+Aqu,Aquarium,Aquarium,Blueprint;Red;Green;Hallway;Bedroom;Shop;Blackprint,3,5,1,0,0
+Ante,Antechamber,Ante-chamber,Blueprint;Objective,0,6,0,0,0
+46,Room 46,Room 46,Blueprint;Objective,6,1,0,0,0
+Br,Bedroom,Bedroom,Bedroom;Entry,1,3,0,0,0
+Bou,Boudoir,Boudoir,Bedroom,2,3,0,0,0
+GBr,Guest Bedroom,Guest Bedroom,Bedroom;Dead End,1,1,0,0,0
+Nurs,Nursery,Nursery,Bedroom;Dead End,1,1,1,0,0
+Serv,Servant's Quarters,Servant's Quarters,Bedroom;Dead End,3,1,1,0,0
+Bunk,Bunk Room,Bunk Room,Bedroom;Bedroom;Dead End;Dead End,3,1,0,0,0
+HLC,Her Ladyship's Chamber,Her Ladyship's Chamber,Bedroom;Dead End,4,1,0,0,0
+MBR,Master Bedroom,Master Bedroom,Bedroom;Dead End,4,1,2,0,0
+Hall,Hallway,Hallway,Hallway,1,5,0,0,0
+WWH,West Wing Hall,West Wing Hall,Hallway,2,5,0,0,0
+EWH,East Wing Hall,East Wing Hall,Hallway,3,5,0,0,0
+Coor,Cooridor,Cooridor,Hallway,1,2,0,0,0
+Pass,Passageway,Passage-way,Hallway,1,6,2,0,0
+Secr,Secret Passage,Secret Passage,Hallway;Fake Dead End,3,2,1,0,0
+Foyer,Foyer,Foyer,Hallway,1,2,2,0,0
+GH,Great Hall,Great Hall,Hallway,3,6,0,0,0
+Terr,Terrace,Terrace,Green;Dead End,2,1,0,0,0
+Patio,Patio,Patio,Green;Spread,2,3,1,0,0
+Cy,Courtyard,Court-yard,Green,1,5,1,0,0
+Clois,Cloister,Cloister,Green,3,6,3,0,0
+Ver,Veranda,Veranda,Green,3,2,2,0,0
+Gh,Greenhouse,Green-house,Green,2,3,1,0,0
+Morn,Morning Room,Morning Room,Green;Tomorrow;Addition,4,4,0,0,0
+Sec G,Secret Garden,Secret Garden,Green;Spread,4,5,0,0,0
+Comm,Commisary,Commis-ary,Shop,2,3,1,0,0
+Kit,Kitchen,Kitchen,Shop,1,3,1,0,0
+Lock,Locksmith,Lock-smith,Shop;Dead End,3,1,1,0,0
+Show,Showroom,Showroom,Shop,4,2,2,0,0
+Laund,Laundry Room,Laundry Room,Shop;Dead End,4,1,1,0,0
+Bs,Bookshop,Bookshop,Shop,4,3,1,0,0
+Arm,The Armory,The Armory,Shop;Blackprint,2,3,0,0,0
+MHGS,Mount Holly Gift Shop,Mount Holly Gift Shop,Shop;Addition,4,5,0,0,0
+Lav,Lavatory,Lavatory,Red;Dead End,2,1,0,0,0
+Chap,Chapel,Chapel,Red;Entry,4,5,0,0,0
+Maid,Maid's Chamber,Maid's Chamber,Red;Bedroom,3,3,0,0,0
+Arch,Archives,Archives,Red,3,6,0,0,0
+Gym,Gymnasium,Gym-nasium,Red;Entry,2,5,0,0,0
+Dr,Darkroom,Darkroom,Red,2,5,0,0,0
+WR,Weight Room,Weight Room,Red,4,6,0,0,0
+Fur,Furnace,Furnace,Red;Dead End,4,1,0,0,0
+Dc,Dovecote,Dovecote,Addition;Blueprint,3,3,0,0,0
+Ken,The Kennel,The Kennel,Addition;Blueprint,2,2,0,0,0
+CT,Clock Tower,Clock Tower,Addition;Tomorrow;Blueprint;Dead End,3,1,1,0,0
+Cr,Classroom,Class-room,Addition;Drafting;Blueprint,3,3,1,0,0
+Sol,Solarium,Solarium,Addition;Green;Dead End,2,1,1,0,0
+Dorm,Dormitory,Dorm-itory,Addition;Entry;Bedroom;Dead End,2,1,0,0,0
+Vest,Vestibule,Vest-ibule,Addition;Hallway;Entry,3,6,2,0,0
+Casi,Casino,Casino,Addition;Shop,3,3,2,0,0
+Plan,Planetarium,Planet-arium,Addition;Blueprint,1,1,0,0,0
+Mech,Mechanarium,Mech-anarium,Addition;Blueprint;Mechanical,3,6,0,0,0
+TT,Treasure Trove,Treasure Trove,Addition;Blackprint,3,3,1,0,0
+Tunn,Tunnel,Tunnel,Addition;Drafting;Hallway,2,2,0,0,0
+Cons,Conservatory,Conserv-atory,Addition;Drafting;Green,3,3,1,0,0
+L&F,Lost And Found,Lost & Found,Addition;Entry;Red,3,3,0,0,0
+CE,Closed Exhibit,Closed Exhibit,Addition;Red,1,5,0,0,0
+Arc8,Archived 8,Archived 8,Addition,1,1,0,0,0
+Ts,Toolshed,Toolshed,Outer Room;Blueprint;Dead End,3,1,0,0,0
+Shel,Shelter,Shelter,Outer Room;Blueprint;Dead End,3,1,0,0,0
+Sh,Schoolhouse,School-house,Outer Room;Drafting;Dead End;Blueprint,3,1,0,0,0
+Shri,Shrine,Shrine,Outer Room;Blueprint;Dead End,3,1,0,0,0
+RC,Root Cellar,Root Cellar,Outer Room;Green;Dead End,3,1,0,0,0
+Hov,Hovel,Hovel,Outer Room;Bedroom;Dead End,3,1,0,0,0
+TP,Trading Post,Trading Post,Outer Room;Shop;Dead End,3,1,0,0,0
+Tomb,Tomb,Tomb,Outer Room;Blackprint;Dead End,3,1,0,0,0
+SprB,Spare Bedroom,Spare Bed-Room,Bedroom;Upgrade,1,2,0,0,0
+Game,Game Room,Game Room,Tomorrow;Puzzle;Blueprint;Upgrade,1,3,0,0,0
+Par,Parlor Upgrade A,Parlor,Puzzle;Blueprint;Upgrade,1,3,0,0,0
+HallC,Hallway Closet,Hall-way Closet,Blueprint;Dead End;Upgrade,1,1,0,0,0
+Str,Storeroom Upgrade A,Store-room,Blueprint;Dead End;Upgrade,1,1,0,0,0
+Nook,Nook Upgrade A,Nook,Blueprint;Upgrade,1,3,0,0,0
+EEAqu,Electric Eel Aquarium,Electric Eel Aquarium,Blueprint;Red;Green;Hallway;Bedroom;Shop;Blackprint;Upgrade;Mechanical,3,5,1,0,0
+Bou,Boudoir Upgrade A,Boudoir,Bedroom;Upgrade,2,3,0,0,0
+QstB,Quest Bedroom,Quest Bedroom,Bedroom;Dead End;Upgrade;Objective,1,1,0,0,0
+IndN,Indoor Nursery,Indoor Nursery,Bedroom;Drafting;Green;Dead End;Upgrade,1,1,1,0,0
+Hall,Hallway Upgrade A,Hallway,Hallway;Upgrade,1,5,0,0,0
+Cy,Courtyard Upgrade A,Court-yard,Green;Upgrade,1,5,1,0,0
+ClofD,Cloister of Dauja,Cloister of Dauja,Green;Upgrade,3,6,3,0,0
+Mail,Mail Room Upgrade A,Mail Room,Blueprint;Tomorrow;Dead End;Upgrade,3,1,0,0,0
+,None,,None,0,0,0,0,0
+,Unplaced,,Unplaced,0,0,0,0,0
+,Unplaced Selected,,Unplaced Selected,0,0,0,0,0

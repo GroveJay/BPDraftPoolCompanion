@@ -100,7 +100,7 @@ Tunn,Tunnel,Tunnel,Addition;Drafting;Hallway,2,2,0,0,0
 Cons,Conservatory,Conserv-atory,Addition;Drafting;Green,3,3,1,0,0
 L&F,Lost And Found,Lost & Found,Addition;Entry;Red,3,3,0,0,0
 CE,Closed Exhibit,Closed Exhibit,Addition;Red,1,5,0,0,0
-ThrRm,The Throne Room,The Throne Room,Addition;Blackprint,4,5,5,0,0
+ThrRm,Throne Room,Throne Room,Addition;Blackprint,4,5,5,0,0
 Ts,Toolshed,Toolshed,Outer Room;Blueprint;Dead End,3,1,0,0,0
 Shel,Shelter,Shelter,Outer Room;Blueprint;Dead End,3,1,0,0,0
 Sh,Schoolhouse,School-house,Outer Room;Drafting;Dead End;Blueprint,3,1,0,0,0

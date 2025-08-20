@@ -1,0 +1,333 @@
+:root {
+	--backgroundColor: #334;
+	--borderColor: #CCC;
+	--RedRoom: #D81E00;
+	--Blueprint: #0058FF;
+	--Bedroom: #9D26FF;
+	--Hallway: #de640a;
+	--GreenRoom: #007C0E;
+	--Shop: #FFF011;
+	--Blackprint: #222222;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  color: #DDC;
+}
+
+body {
+	background-color: var(--backgroundColor);
+}
+
+.headerText {
+	text-decoration: underline;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.roomTileContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.roomTileParent {
+	max-width: 100px;
+	margin: 2.5px;
+	min-width: 100px;
+}
+
+.roomTileParent.small {
+	min-width: unset;
+}
+
+.roomTileParent.mobile {
+	max-width: 70px;
+  	min-width: 70px;
+}
+
+.roomTileWrapper {
+	padding: 10%;
+	position: relative;
+}
+
+.roomTileWrapper.Blueprint {
+	background-color: var(--Blueprint);
+}
+
+.roomTileWrapper.Bedroom {
+	background-color: var(--Bedroom);
+}
+
+.roomTileWrapper.Hallway {
+	background-color: var(--Hallway);
+}
+
+.roomTileWrapper.GreenRoom {
+	background-color: var(--GreenRoom);
+}
+
+.roomTileWrapper.Shop {
+	background-color: var(--Shop);
+}
+
+.roomTileWrapper.RedRoom {
+	background-color: var(--RedRoom);
+}
+
+.roomTileWrapper.Blackprint {
+	background-color: var(--Blackprint);
+}
+
+.roomTileWrapper.Unplaced {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.roomTileWrapper.UnplacedSelected {
+	background-color: #888;
+}
+
+.roomTileWrapper.None {
+	background-color: rgba(0,0,0,0);
+}
+
+.roomTileWrapper.Unknown {
+	background-color: pink;
+}
+
+.roomTileWrapper.Shop.Blackprint {
+	background-repeat: no-repeat;
+	background-image:
+		linear-gradient(
+			135deg,
+			var(--Shop) 0%,
+			var(--Shop) 50%,
+			var(--Blackprint) 50%,
+			var(--Blackprint) 100%
+		);
+}
+
+.roomTileWrapper.RedRoom.Bedroom {
+	background-repeat: no-repeat;
+	background-image:
+		linear-gradient(
+			135deg,
+			var(--RedRoom) 0%,
+			var(--RedRoom) 50%,
+			var(--Bedroom) 50%,
+			var(--Bedroom) 100%
+		);
+}
+
+.roomTileWrapper.Blueprint.RedRoom.GreenRoom.Hallway.Bedroom.Shop.Blackprint {
+	background-repeat: no-repeat;
+	background-image:
+		linear-gradient(
+			135deg,
+			var(--Blueprint) 0%,
+			var(--Blueprint) 14%,
+			var(--RedRoom) 14%,
+			var(--RedRoom) 28%,
+			var(--GreenRoom) 28%,
+			var(--GreenRoom) 42%,
+			var(--Hallway) 42%,
+			var(--Hallway) 56%,
+			var(--Bedroom) 56%,
+			var(--Bedroom) 70%,
+			var(--Shop) 70%,
+			var(--Shop) 84%,
+			var(--Blackprint) 84%,
+			var(--Blackprint) 100%
+		);
+}
+
+.roomTile {
+	aspect-ratio: 1;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-stretch: ultra-condensed;
+	word-wrap: break-word;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-size: 1.2rem;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: all .1s;
+	background-color: #bbbbbb33;
+	align-items: center;
+}
+
+.roomTileWrapper.None > .roomTile {
+	background-color: rgba(0,0,0,0);
+}
+
+.roomTile.hoverable:hover {
+	background-color: white;
+}
+
+.roomTileWrapper.faded {
+	opacity: 0.5;
+}
+
+.rankLabel {
+	position: absolute;
+	font-size: 1rem;
+	font-weight: lighter;
+	left: 5px;
+}
+
+.door {
+	background-color: #111;
+	position: absolute;
+}
+
+.door-vertical {
+	height: 20%;
+	aspect-ratio: 0.5;
+	top: 40%;
+}
+
+.door-horizontal {
+	width: 20%;
+	aspect-ratio: 2;
+	left: 40%;
+}
+
+.door-top {
+	top: 0;
+}
+
+.door-bottom {
+	bottom: 0;
+}
+
+.door-left {
+	left: 0;
+}
+
+.door-right {
+	right: 0;
+}
+
+.rarity {
+	color: var(--RedRoom);
+}
+
+.rarity-0 {
+	opacity: 25%;
+}
+
+.rarity-1 {
+	opacity: 50%;
+}
+
+.rarity-2 {
+	opacity: 75%;
+}
+
+.rarityTitle {
+	text-decoration: underline;
+	margin-right: 5px;
+}
+
+.rarityContainer {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	border-right: 0.5px dashed var(--borderColor);
+}
+
+.roomList {
+	flex: 1 1 75%;
+	overflow: scroll;
+	padding-left: 10px;
+}
+
+.roomList.mobile {
+	padding-left: 0px;
+}
+
+.roomListHeader {
+	display: flex;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	border-bottom: 1px solid var(--borderColor);
+	background-color: var(--backgroundColor);
+	z-index: 2;
+}
+
+.roomListHeader.mobile {
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.manor {
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 15%;
+	border-right: 1px solid var(--borderColor);
+	padding: 0px 5px 0px 5px;
+}
+
+.manor.mobile {
+	flex-grow: 1;
+	border-right: unset;
+	padding: 10px 10px 0px 10px;
+}
+
+.roomCategory {
+	margin-bottom: 5px;
+	display: flex;
+	border-top: 1px solid var(--borderColor);
+	padding-top: 10px;
+	flex-direction: column;
+}
+
+.roomCategoryHeaderText {
+	writing-mode: sideways-lr;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.roomCategoryHeader.mobile {
+	flex: 1;
+	position: sticky;
+	top: 35px;
+	background-color: var(--backgroundColor);
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.roomCategoryRarityContainer {
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 25px;
+	justify-content: center;
+	align-content: flex-start;
+	border-right: 0.5px dashed var(--borderColor);
+}
+
+.gemCost {
+	background-color: var(--RedRoom) !important;
+}
+
+.gemGain {
+	background-color: var(--GreenRoom) !important;
+}
+
+.keyGain {
+	background-color: var(--GreenRoom) !important;
+}
+
+.roomBadge {
+	font-size: .7rem;
+	text-shadow: none;
+}
